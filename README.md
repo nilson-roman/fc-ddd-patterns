@@ -29,7 +29,8 @@ npm install
 ## Running Tests
 To execute the tests for the challenge, run the following command:
 ```sh
-npm test src/infrastructure/order/repository/sequilize/order.repository.spec.ts  
+npm test src/domain/@shared/event/event-dispatcher.spec.ts
+npm test src/domain/customer/event/customer.event.spec.ts 
 ```    
 
 
